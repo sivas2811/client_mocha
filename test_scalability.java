@@ -74,7 +74,7 @@ public class test_scalability {
 			}
 			else if( ja%3 ==2) {
 	    			input = str[3] + random_str[k]+ k+ ";"+random_str[(k+j)%7]+i+j+";"+random_str[(i+j)%7]+k; 
-			*/}
+			}*/
 			input = str[1] + random_str[k]+ k+ ";"+random_str[(k+j)%7]+i+j;
 	     	        Runnable worker = new WorkerThread_Client(input, s, millis, j);
 	                executor.execute(worker);
