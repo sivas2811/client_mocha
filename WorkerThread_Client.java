@@ -55,7 +55,7 @@ public class WorkerThread_Client implements Runnable {
 	out.close();
 	in.close();
 	
-	if(count % 5000 == 0) {
+	if(count % 500 == 0) {
 		long end = System.currentTimeMillis();
 		long diff = end - start;
 		System.out.println( "Time taken : " + diff); 
